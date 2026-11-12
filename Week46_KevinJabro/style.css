@@ -1,0 +1,30 @@
+/* Removes margin and adds a font */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+/* The Pixi canvas sits behind the text */
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Limis the max width and adds spacing */
+main {
+  max-width: 40rem;
+  padding: 2rem;
+}
+
+/* Anpassar bilden efter innehållets bredd */
+
+img {
+  float: right;
+  width: 700px;
+  max-width: 100%;
+  height: auto;
+  padding-right: 100px;
+}
