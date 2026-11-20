@@ -3,35 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kevin Jabro</title>
+  <title>Kevin Jabro – Rave Dice</title>
   <link rel="stylesheet" href="style.css">
 </head>
-  <body>
+<body>
+  <main>
+    <!-- Project title and creators -->
+    <header>
+      <h1>Rave Dice</h1>
+      <p class="names">Kevin Jabro &amp; Sheila Daghout Jaatit</p>
+    </header>
 
-    <!-- Title and paragraf about me -->
-    <main>
-      <h1>Kevin Jabro</h1>
-      <p>IT, Media and Design student at Södertörn University, interested in technology, interactive design and creative programming.</p>
+    <div class="intro">
+      <!-- About us and our project -->
+      <section>
+        <h2>About us</h2>
+        <p>
+          We are IT, Media and Design students at Södertörn University,
+          interested in technology, interactive design and creative programming.
+        </p>
 
-        <!-- List describing the project-->
-        <h2>My project - Rave Dice</h2>
-        <p>Rave Dice is a two-player dice game where the first player
+        <h2>Our project</h2>
+        <p>
+          Rave Dice is a two-player dice game where the first player
           to reach 50 points wins. Players take turns rolling two dice,
           choosing whether to keep rolling or bank their points.
           Play it safe or take a risk to reach 50 faster!
         </p>
 
-      <ul>
-        <li>Physical dice powered by micro:bit.</li>
-        <li>A webpage that displays the dice results.</li>
-        <li>Sounds and colours inspired by a rave.</li>
-      </ul>
+        <ul>
+          <li>Physical dice powered by micro:bit.</li>
+          <li>A webpage that displays the dice results.</li>
+          <li>Sounds and colours inspired by a rave.</li>
+        </ul>
+      </section>
 
-    </main>
+      <!-- Project video and warning -->
+      <div class="video-box">
+        <video controls playsinline preload="metadata">
+          <source src="rave.dice.mov">
+        </video>
+        <p class="warning">
+          ⚠ Warning: This video contains flashing lights and loud sounds.
+          Viewer discretion is advised. Please lower your volume before playing.
+        </p>
+      </div>
+    </div>
 
-    <img src="rave-dice.png" alt="The dice used in our Rave Dice game">
+    <!-- Photos of our project -->
+    <section>
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="rave-dice.png" alt="Rave Dice game screen">
+        <img src="pic1.jpg" alt="Rave Dice installation, photo 1">
+        <img src="pic2.jpg" alt="Rave Dice installation, photo 2">
+        <img src="pic3.jpg" alt="Rave Dice installation, photo 3">
+         <img src="pic4.jpg" alt="Rave Dice installation, photo 4">
+        <img src="pic5.jpg" alt="Rave Dice installation, photo 5">
+       
+      </div>
+    </section>
+  </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/pixi.js@8.6.6/dist/pixi.min.js"></script>
-    <script type="module" src="main.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/pixi.js@8.6.6/dist/pixi.min.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
 </html>

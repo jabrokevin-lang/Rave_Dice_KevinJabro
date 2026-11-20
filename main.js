@@ -1,6 +1,6 @@
 // Startar Pixi med en mörk bakgrund
 const app = new PIXI.Application();
-await app.init({ resizeTo: window, background: "#2f142eff" });
+await app.init({ resizeTo: window, backgroundAlpha: 0 });
 document.body.appendChild(app.canvas);
 
 const particles = [];
